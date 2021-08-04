@@ -1,0 +1,114 @@
+/*
+=========================================
+Responsive Breakpoint
+=========================================
+*/
+
+@media only screen and (max-width: 1199px) {
+
+    .menu-content {
+        margin: 0;
+    }
+
+    ul.mainmenu li a {
+        padding: 0 6px 0 6px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .site-branding img {
+        width: 115px;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .serviceBox {
+        margin-bottom: 50px;
+    }
+
+    .pay-now {
+        padding: 10px 73px;
+    }
+
+    .margin-50px-bottom {
+        margin-bottom: 50px !important;
+    }
+
+    .container {
+        margin-bottom: 50px;
+    }
+
+    .slider-height {
+        min-height: 93vh;
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+
+    section.form-main {
+        position: initial;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .general-text {
+        margin-bottom: 30px;
+    }
+
+    .general-icon {
+        margin-left: 0;
+    }
+
+    .margin-25px-bottom {
+        margin-bottom: 25px;
+    }
+
+    .slider-height {
+        min-height: 75vh;
+    }
+
+    .slider-text {
+        text-align: center;
+    }
+
+    .slider-text h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .slider-text p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .slider-height {
+        min-height: 100vh;
+    }
+    .col-md-12.d-flex.justify-content-center.copyright-text {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .slider-text h2 {
+        font-size: 43px;
+        line-height: 1.3;
+        font-weight: 800;
+        letter-spacing: 1px;
+    }
+
+}
