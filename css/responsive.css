@@ -96,9 +96,15 @@ Responsive Breakpoint
     .slider-height {
         min-height: 100vh;
     }
+
     .col-md-12.d-flex.justify-content-center.copyright-text {
         text-align: center;
     }
+    .price-nav-box #pills-tab li.nav-item {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
 }
 
 
