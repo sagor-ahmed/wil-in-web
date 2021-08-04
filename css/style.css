@@ -954,6 +954,7 @@ ul.mainmenu li a::after {
     color: transparent;
     transition: all .5s;
 }
+
 ul.mainmenu li > a:hover:after {
     width: 100%;
 }
@@ -1098,14 +1099,15 @@ button#slick-slide-control02 {
 }
 
 
-.margin-0{
-    margin-bottom: 0px!important;
+.margin-0 {
+    margin-bottom: 0px !important;
 }
 
-.margin-bottom-50px{
+.margin-bottom-50px {
     margin-bottom: 50px;
 }
 
+/*
 .price-nav {
     display: inline-block;
 }
@@ -1115,4 +1117,32 @@ li.nav-item .nav-link.active {
 
 .price-nav  li.nav-item {
     margin-left: 15px;
+}
+
+*/
+
+
+ul#pills-tab {
+    display: inline-block;
+}
+
+ul#pills-tab li.nav-item .nav-link.active {}
+
+
+ul#pills-tab li.nav-item {
+    margin-left: 15px;
+}
+
+ul#pills-tab li.nav-item .nav-link {
+    border-radius: 0px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #008fd3;
+    border: 1px solid #008fd3;;
+}
+.price-nav-box {
+    margin-bottom: 40px;
 }

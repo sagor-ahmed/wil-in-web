@@ -68,12 +68,11 @@
 
              dots: true,
              infinite: true,
-             speed: 500,
              fade: true,
              cssEase: 'linear',
              arrows: false,
-             autoplay: false,
-             autoplaySpeed: 1000,
+             autoplay: true,
+             speed: 1000,
              responsive: [
                  {
                      breakpoint: 1024,
